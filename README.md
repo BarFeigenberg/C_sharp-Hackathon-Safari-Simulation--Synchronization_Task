@@ -14,24 +14,24 @@ Here are a few moments captured from the simulation, showcasing the dynamic beha
 
 **Hippo's Exclusive Access and Waiting Queues**
 * **Hippo Rule:** In the leftmost lake, a **Hippopotamus** has taken exclusive access, forcing all other animals out.
-* **Waiting Queues:** You can see animals (represented by the penguins from Madagascar in the buses) waiting in the queues above the lakes. They cannot enter the lake on the left because the hippo is present.
 * **Concurrent Activity:** The other two lakes continue to operate independently, with zebras and a flamingo drinking simultaneously.
 
 ***
 
 <br>
 
-![A close-up view of a single, active lake.](http://googleusercontent.com/file_content/21)
+![A close-up view of a single, active lake.](Screenshot%20one%20lake.png)
 
 **Flamingo Clustering and Zebra Placement**
 * **Flamingo Rule:** This image clearly shows the flamingo placement rule. Several **Flamingos** are clustered together in a group around the lake.
 * **Zebra Rule:** Two **Zebras** are also present, each occupying two "slots" in the lake. This demonstrates that multiple animal types can coexist peacefully when a hippo is not around.
+* **Waiting Queues:** You can see animals waiting in the queue above the lakes. They cannot enter the lake because the lake is full.
 
 ***
 
 <br>
 
-![A wide view of the safari with five active lakes.](http://googleusercontent.com/file_content/20)
+![A wide view of the safari with five active lakes.](Screenshot%205%20lakes.png)
 
 **Scalability and Dynamic Distribution**
 * **Scalable Design:** This view demonstrates the application's ability to handle a variable number of lakes, showcasing its scalable architecture.
