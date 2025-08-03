@@ -4,7 +4,38 @@ A multi-threaded Windows Forms application that simulates a safari environment w
 
 ## 📸 Screenshots
 
-*(This is where you'll add your GUI photos. Simply drag and drop them into the GitHub text editor, and it will generate the necessary links.)*
+Here are a few moments captured from the simulation, showcasing the dynamic behavior and rules of the different animals.
+
+***
+
+<br>
+
+![A view of the safari with three active lakes.](http://googleusercontent.com/file_content/22)
+
+**Hippo's Exclusive Access and Waiting Queues**
+* **Hippo Rule:** In the leftmost lake, a **Hippopotamus** has taken exclusive access, forcing all other animals out.
+* **Waiting Queues:** You can see animals (represented by the penguins from Madagascar in the buses) waiting in the queues above the lakes. They cannot enter the lake on the left because the hippo is present.
+* **Concurrent Activity:** The other two lakes continue to operate independently, with zebras and a flamingo drinking simultaneously.
+
+***
+
+<br>
+
+![A close-up view of a single, active lake.](http://googleusercontent.com/file_content/21)
+
+**Flamingo Clustering and Zebra Placement**
+* **Flamingo Rule:** This image clearly shows the flamingo placement rule. Several **Flamingos** are clustered together in a group around the lake.
+* **Zebra Rule:** Two **Zebras** are also present, each occupying two "slots" in the lake. This demonstrates that multiple animal types can coexist peacefully when a hippo is not around.
+
+***
+
+<br>
+
+![A wide view of the safari with five active lakes.](http://googleusercontent.com/file_content/20)
+
+**Scalability and Dynamic Distribution**
+* **Scalable Design:** This view demonstrates the application's ability to handle a variable number of lakes, showcasing its scalable architecture.
+* **Dynamic State:** Each lake and queue is in a unique state, reflecting the random and concurrent nature of the simulation at any given moment.
 
 ## 📝 Original Task Description
 
