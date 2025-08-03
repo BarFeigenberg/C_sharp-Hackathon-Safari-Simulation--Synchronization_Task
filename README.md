@@ -18,9 +18,10 @@ A multi-threaded Windows Forms application that simulates a safari environment w
 >
 > | Animal      | Arrival Time (μ) | Drink Time (μ) | Rules                                                                                                           |
 > | :---------- | :--------------- | :------------- | :-------------------------------------------------------------------------------------------------------------- |
-> | Flamingo    | 2.0 sec (normal) | 3.5 sec (normal) | A Flamingo will only drink next to another Flamingo. If no adjacent spot is available, it waits.                |
+> | Flamingo    | 2.0 sec (normal) | 3.5 sec (normal) | If other flamingos are present, it must occupy an adjacent spot. If it's the first flamingo, it can take any empty spot. |
 > | Zebra       | 3.0 sec (normal) | 5.0 sec (normal) | Can occupy any open space. Each Zebra takes space equivalent to 2 Flamingos.                                    |
 > | Hippopotamus| 10.0 sec (normal)| 5.0 sec (normal) | Requires full exclusive access to the lake. All others must vacate. No concurrent Hippos.                       |
+
 >
 > Arrival and drinking times follow a normal distribution. Upon finishing drinking, animals leave the lake. Once an animal arrives, it is randomly allocated to the lake where it will drink.
 
