@@ -10,7 +10,7 @@ Here are a few moments captured from the simulation, showcasing the dynamic beha
 
 <br>
 
-![A view of the safari with three active lakes.](http://googleusercontent.com/file_content/22)
+![A view of the safari with three active lakes.](Screenshot%203%20lakes.png)
 
 **Hippo's Exclusive Access and Waiting Queues**
 * **Hippo Rule:** In the leftmost lake, a **Hippopotamus** has taken exclusive access, forcing all other animals out.
